@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form</title>
+</head>
+<body>
+     <section>
+        <h2>Опитування</h2>
+        <a href="index.html">Повернутися назад</a>
+        <hr>
+        <br>
+      <form method="POST" action="https://formspree.io/mrbodyash@gmail.com">
+            <ol>
+                <li>Чи вважаєте Ви музику невід'ємною частиною Вашого життя?</li>
+            </ol>
+            <label>
+                <input type="radio" value="Так">Так
+            </label>
+            <label>
+                <input type="radio" value="Ні">Ні
+            </label>
+            <label>
+                <input type="radio" value="Важко відповісти">Важко відповісти
+            </label>
+            <br>
+            <br>
+            <ol>
+                <li>2 Як часто Ви слухаєте музику?</li>
+            </ol>
+            <label>
+                <input type="radio" value="Щодня">Щодня
+            </label>
+            <label>
+                <input type="radio" value="Кілька разів на тиждень">Кілька разів на тиждень
+            </label>
+            <label>
+                <input type="radio" value="Один раз на тиждень і рідше">Один раз на тиждень і рідше
+            </label>
+            <br>
+            <br>
+            <ol>
+                <li>За п'ятибальною шкалою оцініть свою потребу в музиці.</li>
+            </ol>
+            <label>
+                <input type="radio" value="1">1
+            </label>
+            <label>
+                <input type="radio" value="2">2
+            </label>
+            <label>
+                <input type="radio" value="3">3
+            </label>
+            <label>
+                <input type="radio" value="4">4
+            </label>
+            <label>
+                <input type="radio" value="5">5
+            </label>
+            <br>
+            <br>
+            <ol>
+                <li>Чи бували ви коли-небудь на музичних концертах?</li>
+            </ol>
+            <label>
+                <input type="radio" value="Так">Так
+            </label>
+            <label>
+                <input type="radio" value="Ні">Ні
+            </label>
+            <br>
+            <br>
+            <ol>
+                <li>Яке Ваше ставлення до електронної музики?</li>
+            </ol>
+            <label>
+                <input type="radio" value="Позитивне, вважаю її хорошою і вартою уваги.">Позитивне, вважаю її хорошою і вартою уваги.
+            </label>
+            <label>
+                <input type="radio" value="Негатвине, це просто набір звуків, не вартий витрати часу на прослуховування.">Негатвине, це просто набір звуків, не вартий витрати часу на прослуховування.
+            </label>
+            <label>
+                <input type="radio" value="Нейтральне">Нейтральне
+            </label>
+            <br>
+            <br>
+            <ol>
+                <li>Чи любите ви музику рок-напрямів?</li>
+            </ol>
+            <label>
+                <input type="radio" value="Так, драйвова музика для істиних меломанів.">Так, драйвова музика для істиних меломанів.
+            </label>
+            <label>
+                <input type="radio" value="Ні, брутальний стиль, який мене не цікавить.">Ні, брутальний стиль, який мене не цікавить.
+            </label>
+            <label>
+                <input type="radio" value="Важко сказати">Важко сказати
+            </label>
+            <br>
+            <br>
+            <ol>
+                <li>Чи подобається Вам репертуар поп-виконавців?</li>
+            </ol>
+            <label>
+                <input type="radio" value="Так">Так
+            </label>
+            <label>
+                <input type="radio" value="Ні">Ні
+            </label>
+            <label>
+                <input type="radio" value="Подобається, але лише певних виконавців.">Подобається, але лише певних виконавців.
+            </label>
+            <br>
+            <br>
+            <ol>
+                <li>Як Ви ставитесь до музики стилю "хіп-хоп" ?</li>
+            </ol>
+            <label>
+                <input type="radio" value="Позитивно">Позитивно
+            </label>
+            <label>
+                <input type="radio" value="Негативно, є інші, кращі стилі">Негативно, є інші, кращі стилі
+            </label>
+            <label>
+                <input type="radio" value="Важко визначитися">Важко визначитися
+            </label>
+            
+            <br>
+            <br>
+            <br>
+            <br>
+             <label for="client-name">Ім'я:</label>
+            <input type="text" placeholder="Ім'я"
+             id="client-name" name="client-name" required>
+            <br>
+            <label>
+                Пошта: <input type="email" name="client-email" placeholder="Email" required>
+            </label>
+            <br>
+            <br>
+            <label>
+                Коментар:
+                <br>
+                <textarea name="comments"></textarea>
+            </label>
+            <br>
+            <input type="reset">
+            <input type="submit">
+        </form>
+    </section>
+</body>
+</html>
